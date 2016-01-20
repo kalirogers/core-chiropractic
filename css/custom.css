@@ -1,0 +1,270 @@
+body {
+	background-color: #383a35;
+}
+
+.header {
+	background-color: #eeeeee;
+	height: 150px;
+}
+
+.logo {
+	width: 200px;
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-bottom: 2em;
+	float: left;
+}
+
+.tagline {
+	color: #5b7f71;
+	font-family: Verdana, sans-serif;
+	font-style: italic;
+	font-size: 1.8em;
+	margin-top: 5%;
+}
+
+/* Orange Bar Horizontal Navigation Styles */
+
+nav {
+	background-color: #c56e29;
+}
+
+nav a {
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 1.2em;
+	border-right: 1px solid white;
+}
+
+.nav > li > a:hover{
+    background-color:white;
+	opacity: 0.5;
+}
+
+/* Wrapper Styles */
+
+.wrapper {
+	background-color: #eeeeee;
+	padding: 10px;
+	overflow: auto; 
+}
+
+.wrapper-nopad {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.wrapper-content {
+	width: 100%;
+	padding: 20px;
+	background-color: #eeeeee;
+	height: 100%;
+}
+
+.wrapper-quote {
+	overflow: auto;
+	margin: 0px;
+	padding: 20px;
+	background-color: #5b7f71;
+	vertical-align: middle;
+}
+
+.topmargin {
+	margin-top: 20px;
+}
+
+/*Image Banner Styles */
+
+.banner-image {
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+}
+
+.banner-links {
+	background-color: #5b7f71;
+	height: 100%;
+}
+
+.banner-links li{
+	margin-bottom: 25px;
+	border-bottom: 1px solid white;
+
+}
+
+.bgblue {
+	background-color: #5b7f71;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.circle {
+	width: 25px;
+	height: 25px;
+	background: #c56e29;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin: 16px 20px 16px 0px;
+}
+
+.glyphicon-chevron-right {
+	color: white;
+	padding-left: 6px;
+	padding-top: 4px;
+}
+
+.banner-links-icon {
+	list-style-type: none;
+	margin: 0px;
+}
+
+.list-group-item h2{
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 1.4em;
+	display: inline;
+}
+
+.heading h1 {
+	font-family: Verdana, sans-serif;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 13px;
+}
+
+.borderbelow {
+	border-bottom: 1px solid white;
+}
+
+.banner-links-text {
+	float: left;
+}
+
+table {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+
+.theader {
+	color: white;
+	text-transform: uppercase;
+}
+
+table tr {
+	border-bottom: 1px solid white;
+}
+
+tfoot {
+	background-color: red;
+}
+
+.welcome {
+	background-color: red;
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.bio {
+	background-color: #eeeeee;
+	padding: 20px;
+}
+
+
+
+.nopad {
+	padding: 0px;
+}
+
+.rightpad {
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+}
+
+
+
+.quote {
+	padding: 20px;
+	font-family: Verdana, sans-serif;
+	font-size: 1.4em;
+	color: white;
+	text-align: center;
+}
+
+
+
+/* Orange Headline Blocks with White Text*/
+
+.headlineBar {
+	background-color: #c56e29;
+	height: 50px;
+}
+
+.headlineBar h1 {
+	line-height: 2.5em;
+	padding-left: 20px;
+}
+
+h1 {
+	font-family: Verdana, sans-serif;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+}
+
+/* Footer Styles */
+
+.footer {
+	margin-top: 20px;
+	border-top: 5px solid #c56e29;
+	background-color: #eeeeee;
+	padding: 20px;
+}
+
+.footer-border-r {
+	border-right: 1px solid #c56e29;
+	
+}
+
+.footer h2 {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #5b7f71;
+	letter-spacing: 1px;
+	padding-left: 20px;
+}
+
+.footer p {
+	padding-left: 20px;
+}
+
+#my-row {
+    display: table;
+	padding: 0px;
+	margin: 0px;
+}
+
+#my-row .panel {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
